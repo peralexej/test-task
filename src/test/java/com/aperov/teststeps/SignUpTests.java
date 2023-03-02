@@ -4,12 +4,9 @@ import com.aperov.pageobjects.fapHouse.landingPage.LandingPageView;
 import com.aperov.pageobjects.fapHouse.signupPage.SignUpPageView;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-
-import static com.aperov.Utils.Utils.getRandomString;
+import static com.aperov.utils.Utils.getRandomString;
 import static org.testng.Assert.assertTrue;
 
 /**

@@ -1,7 +1,6 @@
-package com.aperov.Utils;
+package com.aperov.utils;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.commons.lang3.RandomUtils;
 
 public class Utils {
     public static String getRandomString(int length) {
